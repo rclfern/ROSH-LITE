@@ -1,0 +1,28 @@
+
+# Python virtual environment
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Local environment variables and secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Local videos and generated analysis
+videos/
+cache/
+data/
+*.db
+*.sqlite
+*.sqlite3
+
+# Editor and system files
+.vscode/
+.DS_Store
+Thumbs.db
+
